@@ -1,0 +1,60 @@
+
+
+
+/* --------------- faq styles --------------- */
+.faq.style-3{
+    .accordion-item{
+        border: 0;
+        border-bottom: 1px solid #9995;
+        background: transparent;
+        .accordion-button{
+            font-weight: bold;
+            font-size: 14px;
+            background-color: transparent;
+            box-shadow: none;
+            text-transform: capitalize;
+            padding: 25px 15px;
+            &::after{
+                background-size: 15px;
+            }
+        }
+        .accordion-button:not(.collapsed){
+            background-color: #fff;
+            color: var(--color-blue2);
+            padding-top: 30px;
+        }
+        .accordion-collapse{
+            background-color: #fff;
+            .accordion-body{
+                padding-top: 0;
+                padding-bottom: 30px;
+                font-size: 10px;
+                color: #666;
+            }
+        }
+    }
+
+    &.style-4{
+        .accordion-item{
+            border: 0;
+            border-radius: 7px;
+            overflow: hidden;
+            .accordion-button{
+                padding: 15px;
+                font-size: 15px;
+            }
+            .accordion-button:not(.collapsed){
+                background-color: #f4f2fb;
+                color: var(--color-blue4);
+                padding-bottom: 10px;
+            }
+            .accordion-collapse{
+                background-color: #f4f2fb;
+                .accordion-body{
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+}
+
