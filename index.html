@@ -214,8 +214,166 @@
                   100% cada uno de tis procesos, todo por un costo accesible y
                   por tiempo ilimitado.
                 </p>
+              </div>
+              <div class="btnModals d-flex">
+                <!-- Button trigger modal -->
+                <div class="cotizar">
+                  <button
+                    type="button"
+                    class="btn rounded-pill bg-blue4 fw-bold text-white me-4"
+                    data-bs-toggle="modal"
+                    data-bs-target="#staticBackdrop"
+                  >
+                    <small>
+                      <i
+                        class="fa fa-file-invoice-dollar me-2 pe-2 border-end"
+                      ></i>
+                      Cotizar proyecto
+                    </small>
+                  </button>
 
-                <!-- <div class="container mt-2">
+                  <!-- Modal -->
+                  <div
+                    class="modal fade"
+                    id="staticBackdrop"
+                    data-bs-backdrop="static"
+                    data-bs-keyboard="false"
+                    tabindex="1"
+                    aria-labelledby="staticBackdropLabel"
+                    aria-hidden="true"
+                  >
+                    <div class="modal-dialog modal-dialog-centered">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="staticBackdropLabel">
+                            Cotizar proyecto
+                          </h5>
+                          <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                          ></button>
+                        </div>
+                        <div class="modal-body">
+                          <form
+                            class="row row-cols-lg-auto g-3 align-items-center"
+                            action="https://formsubmit.co/dev.solution.free@gmail.com"
+                            method="POST"
+                          >
+                            <div class="col-12">
+                              <input
+                                type="text"
+                                class="form-control"
+                                id="fullName"
+                                placeholder="Nombre completo"
+                              />
+                            </div>
+
+                            <div class="col-12">
+                              <input
+                                type="text"
+                                class="form-control"
+                                id="phone"
+                                placeholder="Número de teléfono"
+                              />
+                            </div>
+
+                            <div class="col-12">
+                              <input
+                                type="email"
+                                class="form-control"
+                                id="email"
+                                placeholder="Correo electrónico"
+                              />
+                            </div>
+
+                            <div class="col-12">
+                              <label class="visually-hidden" for="projectType"
+                                >Selecciona un tipo de proyecto</label
+                              >
+                              <select class="form-select" id="projectType">
+                                <option selected>
+                                  Selecciona un tipo de proyecto...
+                                </option>
+                                <option value="1">Página web</option>
+                                <option value="2">Software</option>
+                                <option value="3">App</option>
+                              </select>
+                            </div>
+
+                            <div class="col-12 d-flex justify-content-center">
+                              <button
+                                type="submit"
+                                class="btn rounded-pill bg-blue4 fw-bold text-white me-4"
+                              >
+                                Cotizar proyecto
+                              </button>
+                            </div>
+                          </form>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="freelancer">
+                  <button
+                    type="button"
+                    class="btn rounded-pill bg-blue4 fw-bold text-white me-4"
+                    data-bs-toggle="modal"
+                    data-bs-target="#staticBackdrop"
+                  >
+                    <small>
+                      <i class="fa fa-user me-2 pe-2 border-end"></i> Contratar
+                      Freelancer
+                    </small>
+                  </button>
+
+                  <!-- Modal -->
+                  <div
+                    class="modal fade"
+                    id="staticBackdrop"
+                    data-bs-backdrop="static"
+                    data-bs-keyboard="false"
+                    tabindex="1"
+                    aria-labelledby="staticBackdropLabel"
+                    aria-hidden="true"
+                  >
+                    <div class="modal-dialog modal-dialog-centered">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="staticBackdropLabel">
+                            Modal
+                          </h5>
+                          <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                          ></button>
+                        </div>
+                        <div class="modal-body">...</div>
+                        <div class="modal-footer">
+                          <button
+                            type="button"
+                            class="btn btn-secondary"
+                            data-bs-dismiss="modal"
+                          >
+                            Close
+                          </button>
+                          <button type="button" class="btn btn-primary">
+                            Understood
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="d-flex align-items-center mt-2">
+                <div class="container mt-2">
                   <span>
                     <small
                       class="icon-30 bg-gray rounded-circle color-blue4 d-inline-flex align-items-center justify-content-center me-1"
@@ -236,83 +394,7 @@
                       >PAGO DE CONTADO O RENTA</small
                     >
                   </span>
-                </div> -->
-              </div>
-              <div class="algo">
-                <!-- Button trigger modal -->
-                <button
-                  type="button"
-                  class="btn btn-primary"
-                  data-bs-toggle="modal"
-                  data-bs-target="#staticBackdrop"
-                >
-                  Launch static backdrop modal
-                </button>
-
-                <!-- Modal -->
-                <div
-                  class="modal fade"
-                  id="staticBackdrop"
-                  data-bs-backdrop="static"
-                  data-bs-keyboard="false"
-                  tabindex="1"
-                  aria-labelledby="staticBackdropLabel"
-                  aria-hidden="true"
-                >
-                  <div class="modal-dialog modal-dialog-centered">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <h5 class="modal-title" id="staticBackdropLabel">
-                          Modal
-                        </h5>
-                        <button
-                          type="button"
-                          class="btn-close"
-                          data-bs-dismiss="modal"
-                          aria-label="Close"
-                        ></button>
-                      </div>
-                      <div class="modal-body">...</div>
-                      <div class="modal-footer">
-                        <button
-                          type="button"
-                          class="btn btn-secondary"
-                          data-bs-dismiss="modal"
-                        >
-                          Close
-                        </button>
-                        <button type="button" class="btn btn-primary">
-                          Understood
-                        </button>
-                      </div>
-                    </div>
-                  </div>
                 </div>
-              </div>
-              <div class="d-flex align-items-center mt-2">
-                <!-- <a
-                  href="page-contact-app.html"
-                  class="btn rounded-pill bg-blue4 fw-bold text-white me-4"
-                  target="_blank"
-                >
-                  <small>
-                    <i class="fa fa-user me-2 pe-2 border-end"></i> Contratar
-                    Freelancer
-                  </small>
-                </a>
-
-                <a
-                  href="page-contact-app.html"
-                  class="btn rounded-pill bg-blue4 fw-bold text-white me-4"
-                  target="_blank"
-                >
-                  <small>
-                    <i
-                      class="fa fa-file-invoice-dollar me-2 pe-2 border-end"
-                    ></i>
-                    Cotizar Desarrollo
-                  </small>
-                </a> -->
               </div>
             </div>
 
