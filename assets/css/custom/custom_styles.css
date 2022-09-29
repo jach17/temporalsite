@@ -6,6 +6,9 @@
 .box-logo img {
   object-fit: contain !important;
 }
+.modal-backdrop {
+  z-index: 1;
+}
 
 .text-70 {
   font-size: 100%;
