@@ -11,7 +11,7 @@
 }
 
 .text-70 {
-  font-size: 100%;
+  font-size: 100% !important;
 }
 
 @media only screen and (max-width: 600px) {
