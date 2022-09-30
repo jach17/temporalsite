@@ -349,15 +349,14 @@
 
                   <!-- Modal -->
                   <div
-                    class="modal fade mt-5"
+                    class="modal fade"
                     id="staticBackdropFreelancer"
-                    data-bs-backdrop="static"
-                    data-bs-keyboard="false"
                     tabindex="2"
-                    aria-labelledby="staticBackdropLabel"
+                    role="dialog"
+                    aria-labelledby="exampleModalLongTitle"
                     aria-hidden="true"
                   >
-                    <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-dialog" role="document">
                       <div class="modal-content">
                         <div class="modal-header">
                           <h5 class="modal-title" id="staticBackdropLabel">
@@ -470,19 +469,22 @@
                                 class="form-control"
                                 id="projectDescription"
                                 name="projectDescription"
-                                rows="3"
+                                rows="2"
                                 placeholder="Breve descripción del proyetco"
                               ></textarea>
                             </div>
 
                             <div class="col-12">
+                              <label for="projectType"
+                                >¿Cuántos freelancers necesita?</label
+                              >
                               <select
                                 class="form-select"
                                 id="freelancerCount"
                                 name="freelancerCount"
                               >
                                 <option selected>
-                                  ¿Cuántos freelancers necesita?
+                                  Elige una cantidad de freelancers...
                                 </option>
                                 <option value="1">1</option>
                                 <option value="2">2</option>
@@ -497,13 +499,16 @@
                               </select>
                             </div>
                             <div class="col-12">
+                              <label for="projectType"
+                                >¿Por cuanto tiempo es el contrato?</label
+                              >
                               <select
                                 class="form-select"
                                 id="freelancerContractTime"
                                 name="freelancerContractTime"
                               >
                                 <option selected>
-                                  ¿Por cuanto tiempo es el contrato?
+                                  Eliga una cantidad de tiempo...
                                 </option>
                                 <option value="1">1 mes</option>
                                 <option value="2">2 meses</option>
