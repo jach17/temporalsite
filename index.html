@@ -234,7 +234,7 @@
 
                   <!-- Modal -->
                   <div
-                    class="modal fade"
+                    class="modal fade mt-5"
                     id="staticBackdropCotizar"
                     data-bs-backdrop="static"
                     data-bs-keyboard="false"
@@ -309,6 +309,16 @@
                               </select>
                             </div>
 
+                            <div class="col-12">
+                              <textarea
+                                class="form-control"
+                                id="projectDescription"
+                                name="projectDescription"
+                                rows="3"
+                                placeholder="Breve descripción del proyetco"
+                              ></textarea>
+                            </div>
+
                             <div class="col-12 d-flex justify-content-center">
                               <button
                                 type="submit"
@@ -366,19 +376,18 @@
                             action="https://formsubmit.co/dev.solution.free@gmail.com"
                             method="POST"
                           >
+                            <div class="col-12">
+                              <input
+                                type="text"
+                                class="form-control"
+                                id="companyName"
+                                name="companyName"
+                                placeholder="Nombre de la empresa"
+                              />
+                            </div>
                             <div
                               class="mt-3 d-flex flex-row justify-content-between"
                             >
-                              <div class="col-5">
-                                <input
-                                  type="text"
-                                  class="form-control"
-                                  id="companyName"
-                                  name="companyName"
-                                  placeholder="Nombre de la empresa"
-                                />
-                              </div>
-
                               <div class="col-5">
                                 <input
                                   type="text"
@@ -388,16 +397,15 @@
                                   placeholder="Número de teléfono"
                                 />
                               </div>
-                            </div>
-
-                            <div class="col-12">
-                              <input
-                                type="email"
-                                class="form-control"
-                                id="emailCompany"
-                                name="emailCompany"
-                                placeholder="Correo electrónico"
-                              />
+                              <div class="col-5">
+                                <input
+                                  type="email"
+                                  class="form-control"
+                                  id="emailCompany"
+                                  name="emailCompany"
+                                  placeholder="Correo electrónico"
+                                />
+                              </div>
                             </div>
 
                             <div class="col-12">
