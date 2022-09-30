@@ -5,7 +5,17 @@
 .width49 {
   width: 49%;
 }
+.indexmodal {
+  z-index: 1000 !important;
+}
 
+.indexnavbar {
+  z-index: 7 !important;
+}
+
+.indexbehindnavbar {
+  z-index: 1 !important;
+}
 .box-logo img {
   object-fit: contain !important;
 }
