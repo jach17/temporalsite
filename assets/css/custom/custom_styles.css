@@ -2,6 +2,9 @@
   width: 200px !important;
   height: auto;
 }
+.width49 {
+  width: 49%;
+}
 
 .box-logo img {
   object-fit: contain !important;
