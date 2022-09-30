@@ -476,35 +476,57 @@
                               ></textarea>
                             </div>
 
-                            <div
-                              class="mt-3 d-flex flex-row justify-content-between"
-                            >
-                              <div class="col-5">
-                                <label
-                                  for="cantidadFreelancer"
-                                  class="form-label"
-                                  >¿Cuántos freelancer necesita?</label
-                                >
-                                <input
-                                  type="text"
-                                  class="form-control"
-                                  id="cantidadFreelancer"
-                                  name="cantidadFreelancer"
-                                />
-                              </div>
-
-                              <div class="col-5">
-                                <label for="cantidadTiempo" class="form-label"
-                                  >¿Por cuanto tiempo?</label
-                                >
-                                <input
-                                  type="text"
-                                  class="form-control"
-                                  id="cantidadTiempo"
-                                  name="cantidadTiempo"
-                                />
-                              </div>
+                            <div class="col-12">
+                              <label for="freelancerCount"
+                                >¿Cuántos freelancers necesita?</label
+                              >
+                              <select
+                                class="form-select"
+                                id="freelancerCount"
+                                name="freelancerCount"
+                              >
+                                <option selected>
+                                  Selecciona una cantidad...
+                                </option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                              </select>
                             </div>
+                            <div class="col-12">
+                              <label for="freelancerContractTime"
+                                >¿Por cuánto tiempo es el contrato?</label
+                              >
+                              <select
+                                class="form-select"
+                                id="freelancerContractTime"
+                                name="freelancerContractTime"
+                              >
+                                <option selected>
+                                  Selecciona una cantidad...
+                                </option>
+                                <option value="1">1 mes</option>
+                                <option value="2">2 meses</option>
+                                <option value="3">3 meses</option>
+                                <option value="4">4 meses</option>
+                                <option value="5">5 meses</option>
+                                <option value="6">6 meses</option>
+                                <option value="7">7 meses</option>
+                                <option value="8">8 meses</option>
+                                <option value="9">9 meses</option>
+                                <option value="10">10 meses</option>
+                                <option value="10">11 meses</option>
+                                <option value="10">12 meses</option>
+                              </select>
+                            </div>
+
                             <div class="col-12 d-flex justify-content-center">
                               <button
                                 type="submit"
